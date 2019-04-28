@@ -1,7 +1,7 @@
 # codenames-board-generator
-Generates a random Codenames' board
+Generates a random Codenames board
 
-![codenames board](http://cattaneo.uy/cbg/codenames-board.png "Codenames' board")
+![codenames board](http://cattaneo.uy/cbg/codenames-board.png "Codenames board")
 
 It's mobile friendly!
 
