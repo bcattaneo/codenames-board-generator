@@ -1,0 +1,101 @@
+html {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #917B6D;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 360px) {
+    /* For phones: */
+    html {
+        font-size: 10px;
+    }
+    #container {
+        margin-top: 10px;
+        width: 320px;
+        height: 401px;
+    }
+    .block {
+        width: 50px;
+        height: 50px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For kindle/iPad/desktop: */
+    html {
+        font-size: 15px;
+    }
+    #container {
+        margin-top: 20px;
+        width: 520px;
+        height: 653px;
+    }
+    .block {
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+#container {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.block {
+    border-radius: 3px;
+    position: relative;
+    float: left;
+    background-image: radial-gradient(circle, #e0d2a5, #d4c69c, #c7bb92, #bbaf89, #afa480);
+}
+
+.red {
+    background-image: radial-gradient(circle, #d00321, #ba021e, #a4011a, #8f0117, #7a0113);
+}
+
+.black {
+    background-image: radial-gradient(circle, #443b36, #3d3530, #362f2b, #302925, #292320);
+}
+
+.blue {
+    background-image: radial-gradient(circle, #0475b1, #036fa8, #02689e, #016295, #015c8c);
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Misc */
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
