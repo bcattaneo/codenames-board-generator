@@ -1,7 +1,9 @@
 # codenames-board-generator
 Generates a random Codenames board
 
-![codenames board](http://cattaneo.uy/cbg/codenames-board.png "Codenames board")
+<p align="center">
+  <img src="http://cattaneo.uy/cbg/codenames-board.png" alt="Codenames' board"/>
+</p>
 
 It's mobile friendly!
 
