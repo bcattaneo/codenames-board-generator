@@ -4,6 +4,7 @@
  */
 function loadBoard() {
     let container = document.getElementById('container');
+    let starting = document.getElementById('starting');
     // Create and sort board
     let blocks = [
         "red", "red", "red", "red", "red", "red", "red",
@@ -19,6 +20,7 @@ function loadBoard() {
         output += `<div class="block ${blocks[block]}"></div>`;
     }
     container.innerHTML = output;
+    starting.innerHTML = `<span class="${startingColor}-text">${startingColor}</span> goes first`;
 }
 
 /**
