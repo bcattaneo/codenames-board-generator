@@ -2,7 +2,7 @@
 Generates a random Codenames board
 
 <p align="center">
-  <img src="http://cattaneo.uy/cbg/codenames-board.png" alt="Codenames' board"/>
+  <img src="http://cattaneo.uy/cbg/codenames-board-horizontal.png" alt="Codenames' board"/>
 </p>
 
 It's mobile friendly!
